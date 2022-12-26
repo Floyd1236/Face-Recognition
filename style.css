@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+
+:root 
+{
+    --main-color: #fffb00;
+    --black: #0000;
+}
+
+body
+{
+    background-color: var(--main-color);
+    font-family: 'Montserrat', sans-serif;
+    color: #fff;
+}
+
+.heading
+{
+    font-size: 22px;
+    width: 80%;
+    color: black;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 800;
+}
+
+.name_of_objects, #result_object_name, #result_accuracy_name
+{
+    color: black;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+}
+
+#camera
+{
+    border: 3px dashed  #ff00ff ;
+    width: 450px;
+    height: 400px;
+}
+
+p
+{
+    color: black;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+}
+
+label 
+{
+    color: black;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+}
+
+hr
+{
+    border: 1px solid blue;
+    
+}
+
+.Capture_button
+{
+    color: #fff;
+    background: #0400ff;
+    border: none;
+    outline: none;
+    font-family: 'Montserrat', sans-serif;
+    width: 20vh;
+    border-radius: 50px;
+}
+
+.Identify_button
+{
+    color: #fff;
+    background: #00ffff;
+    border: none;
+    outline: none;
+    font-family: 'Montserrat', sans-serif;
+    width: 20vh;
+    border-radius: 50px;
+}
